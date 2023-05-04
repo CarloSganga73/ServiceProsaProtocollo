@@ -32,7 +32,7 @@ public class ServiceWrapperProtocollo {
 			ProtocolloWebService wsProsa = secServer.getProtocolloWebService();
 
 			// WSAuthentication auth = new WSAuthentication("AOO","Applicazione","Ente","<PASSWORD>","<USERNAME>");
-			WSAuthentication auth = new WSAuthentication("REGLAZIO", "Prosa", "REGIONE.LAZIO", "password", "prosa.hcm");
+			WSAuthentication auth = new WSAuthentication("REGLAZIO", "Prosa", "REGIONE.LAZIO", "AvqcVhAjj2G6uz!c#!YR", "prosa.hcm");
 
 			DocumentoProtocollato documento = new DocumentoProtocollato();
 			documento.setTipoProtocollo("I");
